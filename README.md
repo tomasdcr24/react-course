@@ -1,11 +1,11 @@
-# Firebase React Project
+# Firebase React Project (Wall of Posts)
 
 This project was made as part of a [React Course](https://www.youtube.com/watch?v=f55qeKGgB_M) by [PedroTech](https://www.youtube.com/@PedroTechnologies), in my journey of learning React/Typescript.
 
 The main focus was for me to get a better understanding of how to develop a web app using React.\
-Other aspects weren't taken too much into consideration such as styling, responsiveness, etc.
+Other aspects weren't taken so much into consideration such as styling, responsiveness, etc.
 
-You can see and interact with the final not so pretty result [here](react-course-9a105.web.app)
+You can see and interact with the final result [here](https://react-course-9a105.web.app)
 
 # Getting Started with Create React App
 
