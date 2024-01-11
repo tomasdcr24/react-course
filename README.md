@@ -5,7 +5,7 @@ This project was made as part of a [React Course](https://www.youtube.com/watch?
 The main focus was for me to get a better understanding of how to develop a web app using React.\
 Other aspects weren't taken so much into consideration such as styling, responsiveness, etc.
 
-You can see and interact with the final result [here](https://react-course-9a105.web.app)
+You can see and interact with the final result [here](https://react-course-9a105.web.app).
 
 # Getting Started with Create React App
 
