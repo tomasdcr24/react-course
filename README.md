@@ -1,3 +1,9 @@
+# Firebase React Project
+
+This project was made as part of a [react course](https://www.youtube.com/watch?v=f55qeKGgB_M) by [PedroTech](https://www.youtube.com/@PedroTechnologies), in my journey of learning React/Typescript.\
+The main focus was for me to get a better understanding of how to develop a web app using React.\
+Other aspects weren't taken too much into consideration, such as styling, responsiveness, etc.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
