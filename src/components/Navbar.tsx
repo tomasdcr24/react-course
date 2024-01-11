@@ -12,6 +12,7 @@ export const Navbar = () => {
 
   return (
     <div className="navbar">
+      <div className="website-name">Wall of Posts</div>
       <div className="links">
         <Link to="/"> Home</Link>
         {!user ? (
