@@ -16,10 +16,15 @@ export const Main = () => {
   const postsRef = collection(db, "posts");
 
   const getPosts = async () => {
-    const data = await getDocs(postsRef);
-    setPostsList(
-      data.docs.map((doc) => ({ ...doc.data(), id: doc.id })) as Post[]
-    );
+    try {
+      const data = await getDocs(postsRef);
+      setPostsList(
+        data.docs.map((doc) => ({ ...doc.data(), id: doc.id })) as Post[]
+      );
+    } catch (e) {
+      document.getElementById("posts")!.innerText =
+        "Please login to post/see posts!";
+    }
   };
 
   useEffect(() => {
@@ -27,7 +32,7 @@ export const Main = () => {
   }, []);
 
   return (
-    <div>
+    <div id="posts">
       <ul>
         {postsList?.map((post, index) => (
           <li key={index}>

@@ -101,6 +101,10 @@ textarea {
   cursor: pointer;
 }
 
+#posts {
+  margin-top: 10px;
+}
+
 ul,
 li {
   list-style-type: none;
